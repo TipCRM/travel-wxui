@@ -1,0 +1,15 @@
+<!--pages/center/center.wxml-->
+<view class="container">
+  <view>
+    <map id="center_map" 
+        style="width: 100%; height: 200px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        show-location></map>
+  </view>
+  <view class="my_datas">
+    <view class="my_datas_item"><view>5</view><view>足迹</view></view>
+    <view class="my_datas_item"><view>18</view><view>分享</view></view>
+    <view class="my_datas_item"><view>2</view><view>通知</view></view>
+  </view>
+</view>

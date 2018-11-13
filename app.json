@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/travel/travel",
+    "pages/center/center",
+    "pages/travel_detail/travel_detail",
+    "pages/travel_plan/travel_plan",
+    "pages/travel_list/travel_list",
+    "pages/travel_user/travel_user",
+    "pages/travel_setting/travel_setting",
+    "pages/travel_record/travel_record",
+    "pages/travel_add/travel_add"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "社区",
+        "selectedIconPath": "pages/images/home_select.png",
+        "iconPath": "pages/images/home.png"
+      },
+      {
+        "pagePath": "pages/travel/travel",
+        "text": "足迹",
+        "iconPath": "pages/images/foot.png",
+        "selectedIconPath": "pages/images/foot_select.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "个人中心",
+        "selectedIconPath": "pages/images/center_select.png",
+        "iconPath": "pages/images/center.png"
+      }
+    ],
+    "color": "#B1B1B1",
+    "selectedColor": "#34CC99"
+  }
+}

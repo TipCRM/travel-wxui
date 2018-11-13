@@ -1,0 +1,46 @@
+<!--pages/travel_user/travel_user.wxml-->
+<view class="container">
+  <!-- 用户列表 -->
+  <view class="users_icon">
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201610/24/0002517eee2hlwnq2n7q2e.jpg!w175h131"></image>
+      <view>lscs</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201511/21/182842v3a4tmbbvtmc2u43.jpg!w175h131"></image>
+      <view>李达22</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201511/21/1814438tfnzud2un6pb6wc.jpg!w175h131"></image>
+      <view>测试21</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201301/24/140509bx15x5yo4hoh1511.jpg!w175h131"></image>
+      <view>我的旅行</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201310/31/154429z1jtj1onfwgagdoj.jpg!w175h131"></image>
+      <view>被走啊</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="http://image1.8264.com/forum/201108/05/1316437tagr7rexvzntfrx.jpg!w175h131"></image>
+      <view>3322旅行</view>
+    </view>
+    <view class="users_icon_item">
+      <image src="/pages/images/jia.png"></image>
+    </view>
+    <navigator class="users_icon_item" bindtap="checkDeleteUsers">
+      <image src="/pages/images/jian.png"></image>
+    </navigator>
+  </view>
+  <!-- 确定删除操作 -->
+  <view class="user_delete">
+    <view class="user_delete_notes">
+      点击用户头像选择想要删除的用户
+    </view>
+    <view class="user_delete_button">
+      <view><button class="user_delete_button_cancel">取消</button></view>
+      <view><button class="user_delete_button_sure" hover-class="user_delete_button_sure_hover">删除</button></view>
+    </view>
+  </view>
+</view>

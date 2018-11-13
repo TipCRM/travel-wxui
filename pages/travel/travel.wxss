@@ -1,0 +1,65 @@
+/* pages/travel/travel.wxss */
+@import "/pages/index/index.wxss";
+.travel_content{
+  margin-bottom: 16px;
+}
+
+.travel_content view{
+  height: 30px;
+}
+
+.travel_tag{
+  text-align: right;
+  font-size: 20px;
+}
+
+.travel_tag_doing{
+  background-color: #34CC99;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 2px 4px 2px 8px;
+}
+
+.travel_tag_upcoming{
+  background-color: #38A2D4;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 2px 4px 2px 8px;
+}
+
+.travel_tag_done{
+  background-color: #CBCD33;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 2px 4px 2px 8px;
+}
+
+.travel_tag_cancel{
+  background-color: #aaa;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 2px 4px 2px 8px;
+}
+
+.travel_time{
+  font-size: 16px;
+  color: #fff;
+  background-color: #222;
+  padding: 0 2px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  opacity: 0.5;
+}
+
+.travel_name{
+  color: #fff;
+  text-align: center;
+}

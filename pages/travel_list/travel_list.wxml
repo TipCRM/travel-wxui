@@ -1,0 +1,4 @@
+<!--pages/travel_list/travel_list.wxml-->
+<view class="container">
+  <view></view>
+</view>

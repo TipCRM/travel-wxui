@@ -1,0 +1,77 @@
+<!--pages/travel_detail/travel_detail.wxml-->
+<view class="container">
+  <!-- 顶部图片及信息 -->
+  <view class="wanted" style="background-image:url('http://image1.8264.com/forum/201811/02/084054925ajlcgm3vzakha.jpg!w175h131')">
+    <view class="travel_content">
+        <view><text class="travel_time">6.18~6.21</text></view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <view class="travel_name">九寨沟3日游</view>
+    </view>
+  </view>
+  <!-- 驴友s -->
+  <navigator class="travelers" url="/pages/travel_user/travel_user">
+    <view class="travelers-text">有伙伴，旅行不孤独</view>
+    <view class="travelers-icons">
+      <image class="travelers_icon" src="http://image1.8264.com/forum/201811/02/013702zx73fd9n3mtrnpcn.JPG!w175h131"></image>
+      <image class="travelers_icon travelers_icon_right" src="http://image1.8264.com/forum/201301/24/134910jg1spogo3l300v0s.jpg!w175h131"></image>
+      <image class="travelers_icon travelers_icon_right" src="http://image1.8264.com/forum/201301/24/134520gp0kiinzi222pn38.jpg!w175h131"></image>
+    </view>
+  </navigator>
+  <!-- 行程安排 -->
+  <navigator class="travelers" url="/pages/travel_plan/travel_plan">
+    <view style="flex:1;">
+      <text class="iconfont icon-xingcheng:before"></text>
+    </view>
+    <view style="flex:9;">
+      行程安排
+    </view>
+    <view style="flex:1;">
+      <text class="iconfont icon-hongdian:before" style="color:red;"></text>
+    </view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before"></text>
+    </view>
+  </navigator>
+  <!-- 旅行准备 -->
+  <navigator class="travelers" url="/pages/travel_list/travel_list">
+    <view style="flex:1;">
+      <text class="iconfont icon-zhunbeicailiao:before"></text>
+    </view>
+    <view style="flex:9;">
+      准备清单
+    </view>
+    <view style="flex:1;"></view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before"></text>
+    </view>
+  </navigator>
+  <!-- 旅行记录 -->
+  <navigator class="travelers" url="/pages/travel_record/travel_record">
+    <view style="flex:1;">
+      <text class="iconfont icon-zuji:before"></text>
+    </view>
+    <view style="flex:9;">
+      记录心情，分享喜悦
+    </view>
+    <view style="flex:1;">
+      <text class="iconfont icon-hongdian:before" style="color:red;"></text>
+    </view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before"></text>
+    </view>
+  </navigator>
+  <!-- 设置 -->
+  <navigator class="travelers" url="/pages/travel_setting/travel_setting">
+    <view style="flex:1;">
+      <text class="iconfont icon-shezhi:before"></text>
+    </view>
+    <view style="flex:9;">
+      设置
+    </view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before"></text>
+    </view>
+  </navigator>
+</view>

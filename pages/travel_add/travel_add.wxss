@@ -1,0 +1,51 @@
+/* pages/travel_add/travel_add.wxss */
+.travel_add_item_pic{
+  padding: 16px 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+.travel_add_item{
+  padding: 16px 0;
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  flex-direction: row;
+}
+.travel_add_item_button{
+    padding: 16px 0;
+}
+.travel_add_item_button_common{
+    color: #fff;
+    background-color: #34CC99;
+}
+
+.travel_add_item_button_hover{
+  color: #fff;
+  background-color: #2BA245;
+}
+
+.travel_add_item_title{
+  /* border-right: 1px solid #aaa; */
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.travel_add_item_picker{
+  color: #aaa;
+  flex: 1;
+}
+
+.travel_add_item_date{
+  text-align: center;
+  color:#aaa;
+}
+
+.travel_add_item_upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  border: 1px dashed #aaa;
+  color: #aaa;
+}

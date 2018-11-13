@@ -1,0 +1,57 @@
+/* pages/travel_user/travel_user.wxss */
+.users_icon{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.users_icon_item{
+  width: 20%;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.users_icon_item image{
+  width: 52px;
+  height: 52px;
+}
+
+.users_icon{
+  padding-top: 8px;
+  border-top: 1px solid #f8f8f8;
+}
+
+.user_delete_notes{
+  margin-bottom: 8px;
+  padding-left: 4px;
+  color:#aaa;
+}
+
+.user_delete_button{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.user_delete_button view{
+  flex: 1;
+}
+
+.user_delete_button_cancel{
+  width: 88%;
+}
+
+.user_delete_button_sure{
+  background-color: #34CC99;
+  color: #fff;
+  width: 88%;
+}
+
+.user_delete_button_sure_hover{
+  background-color: #2BA245;
+  color: #fff;
+  width: 88%;
+}

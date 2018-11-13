@@ -1,0 +1,45 @@
+<!--pages/travel_plan/travel_plan.wxml-->
+<view class="container">
+<!-- 行程地图 -->
+<view>
+   <map id="navi_map" longitude="116.451028" latitude="39.949643" scale="12" markers="{{markers}}" polyline="{{polyline}}" class="travel_plan_map"></map>
+</view>
+<!-- 行程详情 -->
+<view class="travel_plan_items">
+  <view class="travel_plan_item">
+    <view class="travel_plan_item_address">
+      <view>
+        <view><text class="iconfont icon-weizhi:before"></text><text style="margin-left:4px;">上海</text></view>
+        <view><text style="font-size:14px;">18日上午</text></view>
+      </view>
+      <view style="flex:2;"><text class="iconfont icon-dao:before"></text></view>
+      <view>
+        <view><text class="iconfont icon-weizhi:before"></text><text style="margin-left:4px;">北京机场</text></view>
+        <view style="font-size:14px;">18日下午</view>
+      </view>
+      <view style="flex:1;text-align: right;"><text class="iconfont icon-guanbi:before close"></text></view>
+    </view>
+    <view class="travel_plan_item_plan">
+      9点出发，在上海大餐厅吃早饭。
+    </view>
+  </view>
+
+  <view class="travel_plan_item">
+    <view class="travel_plan_item_address">
+      <view>
+        <view><text class="iconfont icon-weizhi:before"></text><text style="margin-left:4px;">北京机场</text></view>
+        <view><text style="font-size:14px;">19日5时</text></view>
+      </view>
+      <view style="flex:2;"><text class="iconfont icon-dao:before"></text></view>
+      <view>
+        <view><text class="iconfont icon-weizhi:before"></text><text style="margin-left:4px;">万里长城</text></view>
+        <view style="font-size:14px;">19日12时</view>
+      </view>
+      <view style="flex:1;text-align: right;"><text class="iconfont icon-guanbi:before close"></text></view>
+    </view>
+    <view class="travel_plan_item_plan">
+      在长城上自由活动，你可以拍照、聊天。。。
+    </view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,45 @@
+<!--pages/travel_setting/travel_setting.wxml-->
+<view class="container">
+  <!-- 背景图 -->
+  <view class="travelers" style="padding: 8px 0;">
+    <view class="travel_title">旅行背景</view>
+    <view class="travel_backgrund"><image src="http://image1.8264.com/forum/201811/02/084054925ajlcgm3vzakha.jpg!w175h131"></image></view>
+  </view>
+  
+  <!-- 旅行名称 -->
+  <view class="travelers">
+    <view style="flex:4;">旅行名称</view>
+    <view class="travel_setting_text">泸沽湖2日游</view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before"></text>
+    </view>
+  </view>
+  <!-- 旅行目的地 -->
+  <view class="travelers">
+    <view style="flex:4;">目的地</view>
+    <view class="travel_setting_text">泸沽湖</view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before;"></text>
+    </view>
+  </view>
+  <!-- 旅行时间 --> 
+  <view class="travelers">
+    <view style="flex:1;">旅行时间</view>
+    <view style="flex:1; color:#aaa;">
+      2018.12.3
+    </view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-dao:before"></text>
+    </view>
+    <view style="flex:1;color:#aaa;">
+      2018.12.5
+    </view>
+  </view>
+  <!-- 退出旅行 --> 
+  <view class="travelers">
+    <view style="flex:9;">退出旅行</view>
+    <view style="flex:1;color:#aaa;">
+      <text class="iconfont icon-xiayibu:before;"></text>
+    </view>
+  </view>
+</view>

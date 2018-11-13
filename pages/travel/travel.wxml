@@ -1,0 +1,47 @@
+<view class="container">
+  <scroll-view class="scroll-container">
+    <!-- 添加 -->
+    <navigator class="circle-float" url="/pages/travel_add/travel_add"><text class="iconfont icon-jia:before"></text></navigator>
+    <!-- 正在进行的旅行 -->
+    <navigator url="/pages/travel_detail/travel_detail" class="wanted travel_content" style="background-image:url('https://image1.8264.com/forum/201802/19/120623ck7kp6168r75vb92.jpg!t2w180h120')">
+      <view class="travel_content">
+        <view><text class="travel_time">10.18~10.20</text></view>
+        <view></view>
+        <view class="travel_tag"><text class="travel_tag_doing">正在进行</text></view>
+        <view></view>
+        <view class="travel_name">塔公草原之行</view>
+      </view>
+    </navigator>
+    <!-- 即将开始的旅行 -->
+    <navigator class="wanted travel_content" style="background-image:url('https://image1.8264.com/forum/201610/09/172258k5bk1e7r12ju00uw.jpg!w175h131')">
+      <view class="travel_content">
+        <view><text class="travel_time">12.18~12.25</text></view>
+        <view></view>
+        <view class="travel_tag"><text class="travel_tag_upcoming">即将开始</text></view>
+        <view></view>
+        <view class="travel_name">云南自驾7日游</view>
+      </view>
+    </navigator>
+    <!-- 已经结束的旅行 -->
+    <navigator class="wanted travel_content" style="background-image:url('https://image1.8264.com/forum/201810/31/101741vn9vndvsf3akasz2.jpg!w175h131')">
+      <view class="travel_content">
+        <view><text class="travel_time">1.1~1.5</text></view>
+        <view></view>
+        <view class="travel_tag"><text class="travel_tag_done">已经结束</text></view>
+        <view></view>
+        <view class="travel_name">泰国</view>
+      </view>
+    </navigator>
+    <!-- 已经取消的旅行 -->
+    <navigator class="wanted travel_content" style="background-image:url('https://image1.8264.com/forum/201810/31/05284164rdeggokm0k81wg.JPG!w175h131')">
+        <view class="travel_content">
+        <view><text class="travel_time">6.18~6.21</text></view>
+        
+        <view></view>
+        <view class="travel_tag"><text class="travel_tag_cancel">已经取消</text></view>
+        <view></view>
+        <view class="travel_name">九寨沟3日游</view>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

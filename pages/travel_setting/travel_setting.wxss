@@ -1,0 +1,25 @@
+/* pages/travel_setting/travel_setting.wxss */
+@import "/pages/travel_detail/travel_detail.wxss";
+
+.travel_title{
+  flex: 4;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.travel_backgrund{
+  flex: 2;
+}
+.travel_backgrund image{
+  height: 40px;
+  width: 80px;
+  padding-left: 8px;
+}  
+
+.travel_setting_text{
+  flex:5;
+  text-align:right;
+  color:#aaa;
+  font-size:14px;
+  padding-right: 2px;
+}

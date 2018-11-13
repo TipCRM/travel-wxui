@@ -1,0 +1,51 @@
+<!--pages/travel_add/travel_add.wxml-->
+<view class="container">
+  <!-- 背景图片 -->
+  <view class="travel_add_item_pic">
+    <view class="travel_add_item_upload">
+      <text class="iconfont icon-jia:before" style="font-size:25px;"></text>
+      <view>上传旅行背景</view>
+    </view>
+  </view>
+  <!-- 添加名字 -->
+  <view class="travel_add_item">
+    <view class="travel_add_item_title">旅行名称</view>
+    <view style="flex:3;">
+      <input placeholder="@旅行笔记"></input>
+    </view>
+  </view>
+  <!-- 添加名字 -->
+  <view class="travel_add_item">
+    <view class="travel_add_item_title">旅行目的地</view>
+    <view style="flex:3;">
+      <input placeholder="上海"></input>
+    </view>
+  </view>
+    <!-- 添加名字 -->
+  <view class="travel_add_item">
+    <view class="travel_add_item_title">旅行时间</view>
+    <view style="flex:3; display: flex; flex-direction: row;">
+      <view class="travel_add_item_date">  
+        <picker mode="date" value="startDate" start="2015-09-01" end="2017-09-01" >
+          <view class="travel_add_item_picker">
+            出发时间
+          </view>
+        </picker>
+      </view>
+      <view class="travel_add_item_date">
+        <text class="iconfont icon-dao:before"></text>
+      </view>
+      <view class="travel_add_item_date">
+        <picker mode="date" value="endDate" start="2015-09-01" end="2017-09-01" >
+          <view class="travel_add_item_picker">
+            返回时间
+          </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <!-- 添加按钮 -->
+  <view class="travel_add_item_button">
+    <button class="travel_add_item_button_common" hover-class="travel_add_item_button_hover">发起旅行</button>
+  </view>
+</view>

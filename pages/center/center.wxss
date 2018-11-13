@@ -1,0 +1,17 @@
+/* pages/center/center.wxss */
+@import "/pages/index/index.wxss";
+.my_datas{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #F8F8F8;
+}
+
+.my_datas view{
+
+  flex: 1;
+  text-align: center;
+}
+
+.my_datas_item{
+    margin: 16px 0;
+}

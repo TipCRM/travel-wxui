@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<view  class="container" >
+  <!-- 搜索 -->
+  <view class="trave_share_title">
+    <!-- <view class="trave_share_title_left">
+      <text class="trave_share_title_t">旅行分享</text>
+    </view> -->
+      <view class="trave_share_title_search"><text class="iconfont icon-sousuo:before" style="margin: 0 8px;"></text><text>苍山|洱海|九寨沟</text></view>
+  </view>
+  <scroll-view class="scroll-container">
+    <!-- 招募 -->
+    <view class="wanted" style="background-image: url('https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg')">
+      <view>
+        <text class="wanted-title">驴友招募令</text>
+      </view>
+    </view>
+    <!-- 分享内容 -->
+    <view class="travel_share">
+      <view>
+        <!-- 第一种类型的展示 -->
+        <navigator class="travel_share_content_type1">
+          <view class="type1_right">
+            <view class="type1_right_title">穿越天山夏特冰川古道 游历南疆戈壁沙漠老城</view>
+            <view class="type1_right_info"><text class="top_tag">置顶</text><text style="margin-left:4px;">火三轮</text><text style="margin-left:4px;">8评论</text><text style="margin-left:4px;">1小时前</text></view>
+          </view>
+          <view class="type1_left">
+            <image src="https://image1.8264.com/forum/201110/21/160401fnrntit1in8ddw1a.jpg!w175h131"></image>
+          </view>
+        </navigator>
+        <!-- 第二种类型的展示 -->
+        <navigator class="travel_share_content_type1">
+          <view class="type1_right">
+            <view class="type1_right_title">千山沐雪、赴约一场秋色无边，记2018国庆5.5天速穿狼塔C+V</view>
+            <view class="type1_right_info"><text>俩西门</text><text style="margin-left:4px;">0评论</text><text style="margin-left:4px;">5小时前</text></view>
+          </view>
+        </navigator>
+        <!-- 第三种类型的展示 -->
+        <view class="travel_share_content_type2">
+          <view class="type2_gaps_1"></view>
+          <navigator>
+            <view class="type2_header">
+              <view class="type2_header_icon"><image src="https://image1.8264.com/forum/201110/21/160219hgrggbwgwbfzdb8o.jpg!w175h131"></image></view>
+              <view class="type2_header_name">
+                <view>加小白</view>
+                <view class="type2_header_name_loaction"><text class="iconfont icon-weizhi:before"></text><text style="margin-left:4px;">北极</text></view>
+              </view>
+            </view>
+            <view class="type2_middle">
+            中国十大顶级徒步线路之印象
+            </view>
+            <view class="type2_bottom">
+              <view><image src="https://image1.8264.com/forum/201701/06/0832490dagp730udg0vavu.jpg!w175h131"></image></view>
+              <view style="margin-left: 2px;"><image src="https://image1.8264.com/forum/201701/06/082856szfuiukciukuck31.jpg!w175h131"></image></view>
+              <view style="margin-left: 2px;"><image src="https://image1.8264.com/forum/201701/06/082856m8odqmuzdmmpuumo.jpg!w175h131"></image></view>
+            </view>
+          </navigator>
+          <view class="type2_footer">
+            <view><navigator><text class="iconfont icon-fenxiang:before"></text><text style="margin-left:4px;">分享</text></navigator></view>
+            <view><navigator><text class="iconfont icon-pinglun:before"></text><text style="margin-left:4px;">评论</text></navigator></view>
+            <view><navigator><text class="iconfont icon-tubiao222:before"></text><text style="margin-left:4px;">喜欢</text></navigator></view>
+          </view>
+          <view class="type2_gaps_2"></view>
+        </view>
+        <!-- 第四种类型 -->
+        <navigator class="travel_share_content_type3">
+            <view class="type2_middle">
+            2018年暑期从北疆到南疆—家庭档重装徒步乌孙古道
+            </view>
+            <view class="type2_bottom">
+              <view><image src="https://image1.8264.com/forum/201809/18/153356at06q78ijc58hhw7.jpg!w175h131"></image></view>
+              <view style="margin-left: 2px;"><image src="https://image1.8264.com/forum/201809/18/153358f0rq2np4dhrf8kl5.jpg!w175h131"></image></view>
+              <view style="margin-left: 2px;"><image src="https://image1.8264.com/forum/201809/18/153400gyima6tl08wvg1gd.jpg!w175h131"></image></view>
+            </view>
+            <view class="type1_right_info_type3"><text>liuba0605</text><text style="margin-left:4px;">30评论</text><text style="margin-left:4px;">1天前</text></view>
+        </navigator>
+        <!-- 添加 -->
+        <navigator class="circle-float"><text class="iconfont icon-bi:before"></text></navigator>
+
+          <!-- 没有更多了 -->
+          <view class="no_more">
+            没有更多了
+          </view>
+          <!-- 加载中-->
+          <view class="loading-more">
+            <text class="iconfont icon-jiazaizhong:before"></text><text style="margin-left:4px;">加载中...</text>
+          </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
